@@ -1,0 +1,31 @@
+body{
+    font-size: 8px;
+}
+
+.parent{
+    width: 500px;
+}
+
+#memory{
+    text-align: center;
+}
+
+#ventana_result{
+    height: 20px;
+    width: 209px;
+    text-align: right;
+    margin: 1px;
+}
+
+#c{
+    color: red;
+    text-align: right;
+    align-items: flex-end;
+}
+
+.btn{
+    text-align: center;
+    width: 40px;
+    height: 20px;
+    margin: 1px;
+}

@@ -1,0 +1,21 @@
+body{
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.container_img_petites{
+    width: 600px;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+
+.container_img_grans{
+    width: 1500px;
+    height: 1000px;
+    /* background-color: violet; */
+    text-align: center;
+    margin-top: 150px;
+}

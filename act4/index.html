@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="parent">
+        <div id="div-memory"><span id="memory"></span></div>
+        <div>
+            <input id="ventana_result" type="text" value="0" />
+        </div>
+        <div>
+
+            <button id="c" onclick="getWindowResult()">C</button>
+        </div>
+        <div>
+            <button class="btn" onclick="getWindowResult(7)" id="btn7">7</button>
+            <button class="btn" onclick="getWindowResult(8)" id="btn8">8</button>
+            <button class="btn" onclick="getWindowResult(9)" id="btn9">9</button>
+            <button class="btn" onclick="seleccionarOperador('/')" id="btnDividir">/</button>
+            <button class="btn" onclick="raizCuadrada()" id="btnRaiz">&radic;</button>
+        </div>
+        <div>
+            <button class="btn" onclick="getWindowResult(4)" id="btn4">4</button>
+            <button class="btn" onclick="getWindowResult(5)" id="btn5">5</button>
+            <button class="btn" onclick="getWindowResult(6)" id="btn6">6</button>
+            <button class="btn" onclick="seleccionarOperador('*')" id="btnMultiplicar">*</button>
+            <button class="btn" onclick="seleccionarOperador('%')" id="btnPorcentaje">%</button>
+        </div>
+        <div>
+            <button class="btn" onclick="getWindowResult(1)" id="btn1">1</button>
+            <button class="btn" onclick="getWindowResult(2)" id="btn2">2</button>
+            <button class="btn" onclick="getWindowResult(3)" id="btn3">3</button>
+            <button class="btn" onclick="seleccionarOperador('-')" id="btnRestar">-</button>
+            <button class="btn" onclick="dividirPor1()" id="btnDivisionPor1">1/X</button>
+        </div>
+        <div>
+            <button class="btn" onclick="getWindowResult(0)" id="btn0">0</button>
+            <button class="btn" onclick="isPositivo()" id="btnCambioSigno">&plusmn;</button>
+            <button class="btn" onclick="puntoDecimal()" id="btnAddPunto">.</button>
+            <button class="btn" onclick="seleccionarOperador('+')" id="btnSumar">+</button>
+            <button class="btn" onclick="resultat()" id="btnResultado">=</button>
+        </div>
+        <script src="js/function.js"></script>
+    </div>
+</body>
+
+</html>
